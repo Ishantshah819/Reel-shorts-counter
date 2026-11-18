@@ -29,11 +29,11 @@ jobs:
           gradle-version: '8.7'
 
       - name: Build APK
-        working-directory: ReelMonster
+        working-directory: ReelMonster/ReelMonster
         run: gradle --no-daemon assembleDebug
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
           name: Reel-Monster-APK
-          path: ReelMonster/app/build/outputs/apk/debug/*.apk
+          path: ReelMonster/ReelMonster/app/build/outputs/apk/debug/*.apk
