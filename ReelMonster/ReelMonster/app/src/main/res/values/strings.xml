@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Reel Monster</string>
+    <string name="service_desc">Shows the Reel Monster bubble on top of Instagram and YouTube and, in Level 2, counts reels. Nothing leaves your phone.</string>
+</resources>
